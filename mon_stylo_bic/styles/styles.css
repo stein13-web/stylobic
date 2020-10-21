@@ -1,0 +1,80 @@
+/*07/10/20
+*
+*author: stan 
+*
+*v:1.0
+
+*
+*/
+/*--ma police d'écriture pour mon site stylo bic-------------------*/
+@font-face{
+    font-family: "batma";
+    src: url("../ressources/fonts/batma.ttf");
+}
+
+*{
+    border: 10px solid black;
+
+}
+
+html{  
+    background-color: rgb(160, 214, 216);
+}
+p{
+    color: rgb(104, 216, 100);
+    font-family: "batma";
+}
+
+strong, em, mark {
+    color: rgb(31, 107, 194);
+}
+
+.couleur{
+    color: rgb(161, 38, 218);
+}
+
+/************taille des paragraphes*********************/
+#taille{
+    font-size: 20px;
+}
+/*************titre important***************************/
+#hauteur{
+    font-size: 100px;
+}
+
+/**********differentes taillent pour les differents paragraphes*******/
+
+
+#taillejulien{
+    font-size: 800%;
+}
+#taillemaite{
+    font-size: small;
+    font-style: oblique;
+}
+#taillestan{
+    
+    font-size: 2vh;
+}
+#tailledorian{
+    font-size: 80px;
+}
+#taillemike{
+    font-size: 2em;
+}
+#tailledenis{
+    font-size: 50pt;
+}
+
+/******les différentes possibilités de TEXT*****
+text-align, text-transform, align-items, word spacing, teb-size
+line-break , white-space, overflow-wrap
+**/
+
+
+.ul{
+    text-decoration: none;
+}
+
+
+
